@@ -1,0 +1,4800 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1018
+  9
+$ACADMAINTVER
+ 70
+     0
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+1.000000000000000E+20
+ 20
+1.000000000000000E+20
+ 30
+1.000000000000000E+20
+  9
+$EXTMAX
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$LIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$LIMMAX
+ 10
+3600.0
+ 20
+2400.0
+  9
+$ORTHOMODE
+ 70
+     0
+  9
+$REGENMODE
+ 70
+     1
+  9
+$FILLMODE
+ 70
+     1
+  9
+$QTEXTMODE
+ 70
+     0
+  9
+$MIRRTEXT
+ 70
+     1
+  9
+$LTSCALE
+ 40
+100.0
+  9
+$ATTMODE
+ 70
+     1
+  9
+$TEXTSIZE
+ 40
+25.0
+  9
+$TRACEWID
+ 40
+0.05
+  9
+$TEXTSTYLE
+  7
+ROMANS
+  9
+$CLAYER
+  8
+BOUNDARY
+  9
+$CELTYPE
+  6
+BYLAYER
+  9
+$CECOLOR
+ 62
+   256
+  9
+$CELTSCALE
+ 40
+1.0
+  9
+$DISPSILH
+ 70
+     0
+  9
+$DIMSCALE
+ 40
+40.0
+  9
+$DIMASZ
+ 40
+0.1
+  9
+$DIMEXO
+ 40
+0.0625
+  9
+$DIMDLI
+ 40
+0.5
+  9
+$DIMRND
+ 40
+0.0
+  9
+$DIMDLE
+ 40
+0.0
+  9
+$DIMEXE
+ 40
+0.1
+  9
+$DIMTP
+ 40
+0.0
+  9
+$DIMTM
+ 40
+0.0
+  9
+$DIMTXT
+ 40
+0.1
+  9
+$DIMCEN
+ 40
+0.05
+  9
+$DIMTSZ
+ 40
+0.0
+  9
+$DIMTOL
+ 70
+     0
+  9
+$DIMLIM
+ 70
+     0
+  9
+$DIMTIH
+ 70
+     0
+  9
+$DIMTOH
+ 70
+     0
+  9
+$DIMSE1
+ 70
+     1
+  9
+$DIMSE2
+ 70
+     1
+  9
+$DIMTAD
+ 70
+     0
+  9
+$DIMZIN
+ 70
+     0
+  9
+$DIMBLK
+  1
+DIMARROW
+  9
+$DIMASO
+ 70
+     1
+  9
+$DIMSHO
+ 70
+     1
+  9
+$DIMPOST
+  1
+'
+  9
+$DIMAPOST
+  1
+m
+  9
+$DIMALT
+ 70
+     0
+  9
+$DIMALTD
+ 70
+     2
+  9
+$DIMALTF
+ 40
+0.3048
+  9
+$DIMLFAC
+ 40
+1.0
+  9
+$DIMTOFL
+ 70
+     0
+  9
+$DIMTVP
+ 40
+0.0
+  9
+$DIMTIX
+ 70
+     0
+  9
+$DIMSOXD
+ 70
+     0
+  9
+$DIMSAH
+ 70
+     0
+  9
+$DIMBLK1
+  1
+
+  9
+$DIMBLK2
+  1
+
+  9
+$DIMSTYLE
+  2
+OMSBERG
+  9
+$DIMCLRD
+ 70
+     0
+  9
+$DIMCLRE
+ 70
+     0
+  9
+$DIMCLRT
+ 70
+   256
+  9
+$DIMTFAC
+ 40
+1.0
+  9
+$DIMGAP
+ 40
+0.05
+  9
+$DIMJUST
+ 70
+     0
+  9
+$DIMSD1
+ 70
+     0
+  9
+$DIMSD2
+ 70
+     0
+  9
+$DIMTOLJ
+ 70
+     1
+  9
+$DIMTZIN
+ 70
+     0
+  9
+$DIMALTZ
+ 70
+     0
+  9
+$DIMALTTZ
+ 70
+     0
+  9
+$DIMUPT
+ 70
+     0
+  9
+$DIMDEC
+ 70
+     2
+  9
+$DIMTDEC
+ 70
+     2
+  9
+$DIMALTU
+ 70
+     2
+  9
+$DIMALTTD
+ 70
+     2
+  9
+$DIMTXSTY
+  7
+ROMANS
+  9
+$DIMAUNIT
+ 70
+     1
+  9
+$DIMADEC
+ 70
+     4
+  9
+$DIMALTRND
+ 40
+0.0
+  9
+$DIMAZIN
+ 70
+     0
+  9
+$DIMDSEP
+ 70
+    46
+  9
+$DIMATFIT
+ 70
+     1
+  9
+$DIMFRAC
+ 70
+     0
+  9
+$DIMLDRBLK
+  1
+LDRARROW
+  9
+$DIMLUNIT
+ 70
+     2
+  9
+$DIMLWD
+ 70
+    -2
+  9
+$DIMLWE
+ 70
+    -2
+  9
+$DIMTMOVE
+ 70
+     0
+  9
+$LUNITS
+ 70
+     2
+  9
+$LUPREC
+ 70
+     2
+  9
+$SKETCHINC
+ 40
+0.1
+  9
+$FILLETRAD
+ 40
+0.0
+  9
+$AUNITS
+ 70
+     1
+  9
+$AUPREC
+ 70
+     4
+  9
+$MENU
+  1
+.
+  9
+$ELEVATION
+ 40
+0.0
+  9
+$PELEVATION
+ 40
+0.0
+  9
+$THICKNESS
+ 40
+0.0
+  9
+$LIMCHECK
+ 70
+     0
+  9
+$CHAMFERA
+ 40
+0.5
+  9
+$CHAMFERB
+ 40
+0.5
+  9
+$CHAMFERC
+ 40
+1.0
+  9
+$CHAMFERD
+ 40
+0.0
+  9
+$SKPOLY
+ 70
+     0
+  9
+$TDCREATE
+ 40
+2457495.299657407
+  9
+$TDUCREATE
+ 40
+2457495.632990741
+  9
+$TDUPDATE
+ 40
+2458465.540700845
+  9
+$TDUUPDATE
+ 40
+2458465.874034179
+  9
+$TDINDWG
+ 40
+1.3701983565
+  9
+$TDUSRTIMER
+ 40
+0.0000000000
+  9
+$USRTIMER
+ 70
+     0
+  9
+$ANGBASE
+ 50
+0.0
+  9
+$ANGDIR
+ 70
+     0
+  9
+$PDMODE
+ 70
+     3
+  9
+$PDSIZE
+ 40
+0.1
+  9
+$PLINEWID
+ 40
+0.0
+  9
+$SPLFRAME
+ 70
+     0
+  9
+$SPLINETYPE
+ 70
+     6
+  9
+$SPLINESEGS
+ 70
+     8
+  9
+$HANDSEED
+  5
+52
+  9
+$SURFTAB1
+ 70
+     6
+  9
+$SURFTAB2
+ 70
+     6
+  9
+$SURFTYPE
+ 70
+     6
+  9
+$SURFU
+ 70
+     6
+  9
+$SURFV
+ 70
+     6
+  9
+$UCSBASE
+  2
+
+  9
+$UCSNAME
+  2
+
+  9
+$UCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+     0
+  9
+$UCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSBASE
+  2
+
+  9
+$PUCSNAME
+  2
+
+  9
+$PUCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+     0
+  9
+$PUCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$USERI1
+ 70
+     0
+  9
+$USERI2
+ 70
+     0
+  9
+$USERI3
+ 70
+     0
+  9
+$USERI4
+ 70
+     0
+  9
+$USERI5
+ 70
+     0
+  9
+$USERR1
+ 40
+0.0
+  9
+$USERR2
+ 40
+0.0
+  9
+$USERR3
+ 40
+0.0
+  9
+$USERR4
+ 40
+0.0
+  9
+$USERR5
+ 40
+0.0
+  9
+$WORLDVIEW
+ 70
+     1
+  9
+$SHADEDGE
+ 70
+     3
+  9
+$SHADEDIF
+ 70
+    70
+  9
+$TILEMODE
+ 70
+     1
+  9
+$MAXACTVP
+ 70
+    48
+  9
+$PINSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PLIMCHECK
+ 70
+     0
+  9
+$PEXTMIN
+ 10
+13.02152394042192
+ 20
+7.133889507287573
+ 30
+-0.0000000000000058
+  9
+$PEXTMAX
+ 10
+30.02237232908896
+ 20
+18.13452327164404
+ 30
+0.0000000000000104
+  9
+$PLIMMIN
+ 10
+13.02152394417654
+ 20
+7.133889511042196
+  9
+$PLIMMAX
+ 10
+30.02152346358477
+ 20
+18.1338892707463
+  9
+$UNITMODE
+ 70
+     0
+  9
+$VISRETAIN
+ 70
+     1
+  9
+$PLINEGEN
+ 70
+     1
+  9
+$PSLTSCALE
+ 70
+     1
+  9
+$TREEDEPTH
+ 70
+  3020
+  9
+$CMLSTYLE
+  2
+STANDARD
+  9
+$CMLJUST
+ 70
+     0
+  9
+$CMLSCALE
+ 40
+1.0
+  9
+$PROXYGRAPHICS
+ 70
+     1
+  9
+$MEASUREMENT
+ 70
+     0
+  9
+$CELWEIGHT
+370
+    -1
+  9
+$ENDCAPS
+280
+     0
+  9
+$JOINSTYLE
+280
+     0
+  9
+$LWDISPLAY
+290
+     0
+  9
+$INSUNITS
+ 70
+     2
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+     1
+  9
+$CEPSNTYPE
+380
+     0
+  9
+$PSTYLEMODE
+290
+     1
+  9
+$FINGERPRINTGUID
+  2
+{469470DB-DF99-11D3-B99E-00403357E595}
+  9
+$VERSIONGUID
+  2
+{007E30A0-B4AF-42D1-BEE5-C1475E030DBD}
+  9
+$EXTNAMES
+290
+     1
+  9
+$PSVPSCALE
+ 40
+0.0
+  9
+$OLESTARTUP
+290
+     0
+  9
+$SORTENTS
+280
+   127
+  9
+$INDEXCTL
+280
+     0
+  9
+$HIDETEXT
+280
+     1
+  9
+$XCLIPFRAME
+290
+     0
+  9
+$HALOGAP
+280
+     0
+  9
+$OBSCOLOR
+ 70
+   257
+  9
+$OBSLTYPE
+280
+     0
+  9
+$INTERSECTIONDISPLAY
+280
+     0
+  9
+$INTERSECTIONCOLOR
+ 70
+   257
+  9
+$DIMASSOC
+280
+     1
+  9
+$PROJECTNAME
+  1
+
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+CLASS
+  1
+ACDBDICTIONARYWDFLT
+  2
+AcDbDictionaryWithDefault
+  3
+ObjectDBX Classes
+ 90
+        0
+ 91
+        1
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_VARS_DWG_SETUP
+  2
+AecDbVarsDwgSetup
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_VARS_CIVILSETUP
+  2
+AecDbVarsCivilSetup
+  3
+AecCivilBase|Custom Application
+ 90
+        1
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+PLOTSETTINGS
+  2
+AcDbPlotSettings
+  3
+ObjectDBX Classes
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_CIVIL_LABEL_STYLE
+  2
+AecCvLabelStyle
+  3
+AecCivilDraftAPPLICATION_INFORMATION
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_CONFIG
+  2
+AecDbDispRepConfig
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_SET
+  2
+AecDbDispRepSet
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AECC_CONTOURVIEW
+  2
+AeccDbViewContour
+  3
+AecCivilBase|Custom Application
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AECC_POINTVIEW
+  2
+AeccDbViewPoint
+  3
+AecCivilBase|Custom Application
+ 90
+        1
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AECC_GRADEVIEW
+  2
+AeccViewGrade
+  3
+AecCivilBase|Custom Application
+ 90
+        1
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_CVSECTIONVIEW
+  2
+AecCvViewSection
+  3
+AecCivilBase|Custom Application
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_ANCHOR
+  2
+AecDbDispRepAnchor
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_ANCHOR_ENT_TO_NODE
+  2
+AecDbDispRepAnchorEntToNode
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_CAMERA
+  2
+AecDbDispRepCamera
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_CLIP_VOLUME_MODEL
+  2
+AecDbDispRepClipVolModel
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_CLIP_VOLUME_PLAN
+  2
+AecDbDispRepClipVolPlan
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_CLIP_VOLUME_RESULT_SUBDIV
+  2
+AecDbDispRepClipVolResSubDiv
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_CLIP_VOLUME_RESULT
+  2
+AecDbDispRepClipVolResult
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_ENT_REF
+  2
+AecDbDispRepEntRef
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_LAYOUT_CURVE
+  2
+AecDbDispRepLayoutCurve
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_LAYOUT_GRID2D
+  2
+AecDbDispRepLayoutGrid2d
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_LAYOUT_GRID3D
+  2
+AecDbDispRepLayoutGrid3d
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MASKBLOCK_REF
+  2
+AecDbDispRepMaskBlockRef
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MASS_ELEM_MODEL
+  2
+AecDbDispRepMassElemModel
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MASS_ELEM_SCHEM
+  2
+AecDbDispRepMassElemSchem
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MASS_GROUP_MODEL
+  2
+AecDbDispRepMassGroupModel
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MASS_GROUP_PLAN
+  2
+AecDbDispRepMassGroupPlan
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MVBLOCK_REF
+  2
+AecDbDispRepMvBlockRef
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MVBLOCK_REF_MODEL
+  2
+AecDbDispRepMvBlockRefModel
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_SLICE
+  2
+AecDbDispRepSlice
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_ENT
+  2
+AecDbDispPropsEnt
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_MASS_ELEM_MODEL
+  2
+AecDbDispPropsMassElem
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_MASKBLOCK
+  2
+AecDbDispPropsMaskBlock
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_SLICE
+  2
+AecDbDispPropsSlice
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_CAMERA
+  2
+AecDbDispPropsCamera
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_LAYOUT_CURVE
+  2
+AecDbDispPropsLayoutCurve
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_MASS_GROUP
+  2
+AecDbDispPropsMassGroup
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_ENT_REF
+  2
+AecDbDispPropsEntRef
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_CLIP_VOLUME_RESULT
+  2
+AecDbDispPropsClipVolResSubDiv
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_CLIP_VOLUME
+  2
+AecDbDispPropsClipVol
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_LAYOUT_GRID3D
+  2
+AecDbDispPropsLayoutGrid3d
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_LAYOUT_GRID2D
+  2
+AecDbDispPropsLayoutGrid2d
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AECC_CONTOUR_STYLE
+  2
+AeccDbContourStyle
+  3
+AecCivilBase|Custom Application
+ 90
+        1
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+DICTIONARYVAR
+  2
+AcDbDictionaryVar
+  3
+ObjectDBX Classes
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+SORTENTSTABLE
+  2
+AcDbSortentsTable
+  3
+ObjectDBX Classes
+ 90
+        0
+ 91
+        4
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+IMAGEDEF
+  2
+AcDbRasterImageDef
+  3
+ISM
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+IMAGE
+  2
+AcDbRasterImage
+  3
+ISM
+ 90
+      127
+ 91
+        0
+280
+     0
+281
+     1
+  0
+CLASS
+  1
+IMAGEDEF_REACTOR
+  2
+AcDbRasterImageDefReactor
+  3
+ISM
+ 90
+        1
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+RASTERVARIABLES
+  2
+AcDbRasterVariables
+  3
+ISM
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+WIPEOUTVARIABLES
+  2
+AcDbWipeoutVariables
+  3
+"WipeOut|Product Desc:     WipeOut Dbx Application|Company:          Autodesk, Inc.|WEB Address:      www.autodesk.com"
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_NOTIFICATION_TRACKER
+  2
+AecDbNotificationTracker
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_2D_SECTION
+  2
+AecDbDispRep2dSection
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_2D_SECTION
+  2
+AecDbDispProps2dSection
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_EDITINPLACEPROFILE
+  2
+AecDbDispRepEditInPlaceProfile
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_EDITINPLACEPROFILE_MODEL
+  2
+AecDbDispPropsEditInPlaceProfile
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_MATERIAL
+  2
+AecDbDispRepMaterial
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_MATERIAL
+  2
+AecDbDispPropsMaterial
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_POLYGON_MODEL
+  2
+AecDbDispRepPolygonModel
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_POLYGON_MODEL
+  2
+AecDbDispPropsPolygonModel
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_POLYGON_TRUECOLOUR
+  2
+AecDbDispRepPolygonTrueColour
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_POLYGON_TRUECOLOUR
+  2
+AecDbDispPropsPolygonTrueColour
+  3
+AecBase40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AECC_POINT
+  2
+AeccDbPoint
+  3
+AecCivilBase|Custom Application
+ 90
+      895
+ 91
+        0
+280
+     0
+281
+     1
+  0
+CLASS
+  1
+AEC_CIVIL_POINT_LABEL
+  2
+AecCvPointLabel
+  3
+AecCivilDraftAPPLICATION_INFORMATION
+ 90
+        0
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_ANCHOR_TAG_TO_ENT
+  2
+AecDbDispRepAnchorTagToEnt
+  3
+AecScheduleData40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_REP_SCHEDULE_TABLE
+  2
+AecDbDispRepScheduleTable
+  3
+AecSchedule40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+CLASS
+  1
+AEC_DISP_PROPS_SCHEDULE_TABLE
+  2
+AecDbDispPropsScheduleTable
+  3
+AecSchedule40|Product Desc: Autodesk Architectural Desktop 2004 |Company: Autodesk,Inc. |WEB Address: www.autodesk.com
+ 90
+      129
+ 91
+        0
+280
+     0
+281
+     0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+35
+330
+0
+100
+AcDbSymbolTable
+ 70
+     1
+  0
+VPORT
+  5
+36
+330
+35
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*Active
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 11
+1.0
+ 21
+1.0
+ 12
+20104.14013860347
+ 22
+12398.78776160566
+ 13
+0.0
+ 23
+0.0
+ 14
+0.5
+ 24
+0.5
+ 15
+0.5
+ 25
+0.5
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 40
+11017.28097853581
+ 41
+2.097165991902834
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 51
+0.0
+ 71
+     0
+ 72
+   100
+ 73
+     1
+ 74
+     1
+ 75
+     0
+ 76
+     0
+ 77
+     0
+ 78
+     0
+281
+     0
+ 65
+     1
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+     0
+146
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+30
+330
+0
+100
+AcDbSymbolTable
+ 70
+     1
+  0
+LTYPE
+  5
+31
+330
+30
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BYBLOCK
+ 70
+     0
+  3
+
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+LTYPE
+  5
+32
+330
+30
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+BYLAYER
+ 70
+     0
+  3
+
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+LTYPE
+  5
+C
+330
+30
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+CONTINUOUS
+ 70
+     0
+  3
+Solid line
+ 72
+    65
+ 73
+     0
+ 40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+26
+102
+{ACAD_XDICTIONARY
+360
+27
+102
+}
+330
+0
+100
+AcDbSymbolTable
+ 70
+     2
+  0
+LAYER
+  5
+6
+330
+26
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+     0
+ 62
+     7
+  6
+CONTINUOUS
+370
+    -3
+390
+7
+1001
+RAK
+1000
+{ACET-LAYISO
+1070
+     0
+1070
+     7
+1000
+CONTINUOUS
+1071
+       -3
+1071
+        1
+1005
+7
+1000
+ACET-LAYISO}
+  0
+LAYER
+  5
+F
+330
+26
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+BOUNDARY
+ 70
+     0
+ 62
+     1
+  6
+CONTINUOUS
+370
+    -3
+390
+7
+1001
+RAK
+1000
+{ACET-LAYISO
+1070
+     0
+1070
+     1
+1000
+CONTINUOUS
+1071
+       -3
+1071
+        1
+1005
+7
+1000
+ACET-LAYISO}
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+2D
+330
+0
+100
+AcDbSymbolTable
+ 70
+     3
+  0
+STYLE
+  5
+2E
+330
+2D
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+STANDARD
+ 70
+     0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+     0
+ 42
+0.2
+  3
+simplex.shx
+  4
+
+  0
+STYLE
+  5
+3B
+330
+2D
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+1
+ 70
+     0
+ 40
+0.0
+ 41
+0.99
+ 50
+0.0
+ 71
+     0
+ 42
+20.0
+  3
+MCBRIDE.TTF
+  4
+
+1001
+ACAD
+1000
+McBride
+1071
+        2
+  0
+STYLE
+  5
+50
+330
+2D
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+ROMANS
+ 70
+     0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+     0
+ 42
+25.0
+  3
+ROMANS.shx
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+33
+330
+0
+100
+AcDbSymbolTable
+ 70
+     2
+  0
+VIEW
+  5
+18
+330
+33
+100
+AcDbSymbolTableRecord
+100
+AcDbViewTableRecord
+  2
+daystamp
+ 70
+     0
+ 40
+279.9999998538666
+ 10
+-4.496339703266216
+ 20
+132.9758139014148
+ 41
+9.999999994780953
+ 11
+0.0
+ 21
+0.0
+ 31
+1.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 71
+     0
+281
+     0
+ 72
+     1
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+     0
+146
+0.0
+  0
+VIEW
+  5
+25
+330
+33
+100
+AcDbSymbolTableRecord
+100
+AcDbViewTableRecord
+  2
+PLOT
+ 70
+     1
+ 40
+25.5246755865185
+ 10
+21.51360981084198
+ 20
+12.63471657137692
+ 41
+43.20606720062544
+ 11
+0.0
+ 21
+0.0
+ 31
+1.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 71
+     0
+281
+     0
+ 72
+     1
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+     0
+146
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+34
+330
+0
+100
+AcDbSymbolTable
+ 70
+     0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+37
+330
+0
+100
+AcDbSymbolTable
+ 70
+     6
+  0
+APPID
+  5
+38
+330
+37
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+     0
+  0
+APPID
+  5
+B
+330
+37
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ADE
+ 70
+     0
+  0
+APPID
+  5
+D
+330
+37
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+RAK
+ 70
+     0
+  0
+APPID
+  5
+A
+330
+37
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ADE_PROJECTION
+ 70
+     0
+  0
+APPID
+  5
+21
+330
+37
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ADCADD_ZZ
+ 70
+     0
+  0
+APPID
+  5
+22
+330
+37
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+SDSK_PMN
+ 70
+     0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+39
+330
+0
+100
+AcDbSymbolTable
+ 70
+     1
+100
+AcDbDimStyleTable
+ 71
+     1
+340
+3A
+  0
+DIMSTYLE
+105
+3A
+330
+39
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+OMSBERG
+ 70
+     0
+  3
+'
+ 40
+100.0
+ 41
+0.1
+ 42
+0.05
+ 43
+0.5
+ 44
+0.1
+ 73
+     0
+ 74
+     0
+ 75
+     1
+ 76
+     1
+140
+0.1
+141
+0.05
+147
+0.05
+178
+   256
+179
+     4
+271
+     2
+272
+     2
+275
+     1
+289
+     1
+340
+3B
+341
+3C
+342
+43
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+1
+330
+0
+100
+AcDbSymbolTable
+ 70
+     3
+  0
+BLOCK_RECORD
+  5
+2
+102
+{ACAD_XDICTIONARY
+360
+3
+102
+}
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*MODEL_SPACE
+340
+16
+  0
+BLOCK_RECORD
+  5
+19
+102
+{ACAD_XDICTIONARY
+360
+1A
+102
+}
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space
+340
+24
+  0
+BLOCK_RECORD
+  5
+43
+102
+{ACAD_XDICTIONARY
+360
+44
+102
+}
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+DIMARROW
+340
+0
+1001
+ACAD
+1000
+DesignCenter Data
+1002
+{
+1070
+     1
+1070
+     2
+1002
+}
+  0
+BLOCK_RECORD
+  5
+3C
+102
+{ACAD_XDICTIONARY
+360
+3D
+102
+}
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+LDRARROW
+340
+0
+1001
+ACAD
+1000
+DesignCenter Data
+1002
+{
+1070
+     1
+1070
+     2
+1002
+}
+  0
+BLOCK_RECORD
+  5
+1E
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+ADCADD_ZZ
+340
+0
+102
+{BLKREFS
+331
+1D
+102
+}
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+5
+330
+2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*MODEL_SPACE
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*MODEL_SPACE
+  1
+
+  0
+ENDBLK
+  5
+15
+330
+2
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C
+330
+19
+100
+AcDbEntity
+ 67
+     1
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Paper_Space
+  1
+
+  0
+ENDBLK
+  5
+23
+330
+19
+100
+AcDbEntity
+ 67
+     1
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+46
+330
+43
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+DIMARROW
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+DIMARROW
+  1
+
+  0
+LWPOLYLINE
+  5
+47
+102
+{ACAD_REACTORS
+330
+48
+102
+}
+330
+43
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     0
+100
+AcDbPolyline
+ 90
+        4
+ 70
+     0
+ 43
+0.0
+ 10
+0.0
+ 20
+0.0
+ 42
+0.0651920449431346
+ 10
+-1.276130589110834
+ 20
+-0.1180451087890105
+ 42
+0.1562877463157821
+ 10
+-1.254668459358072
+ 20
+0.1244250583589746
+ 42
+0.0650727023370405
+ 10
+0.0
+ 20
+0.0
+ 42
+-0.2805059877597142
+  0
+HATCH
+  5
+48
+330
+43
+100
+AcDbEntity
+  8
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+     1
+ 71
+     1
+ 91
+        1
+ 92
+        7
+ 72
+     1
+ 73
+     1
+ 93
+        3
+ 10
+-1.254668459358071
+ 20
+0.1244250583589737
+ 42
+-0.1562877463157813
+ 10
+-1.276130589110834
+ 20
+-0.1180451087890103
+ 42
+-0.0479931503070158
+ 10
+-0.3383808576276057
+ 20
+0.0012428188343909
+ 42
+-0.0476227795114293
+ 97
+        1
+330
+47
+ 75
+     0
+ 76
+     1
+ 47
+0.001928719839742
+ 98
+        1
+ 10
+-1.020384407403796
+ 20
+0.0321895671709363
+450
+        0
+451
+        0
+460
+0.0
+461
+0.0
+452
+        0
+462
+0.0
+453
+        0
+470
+
+  0
+ENDBLK
+  5
+49
+330
+43
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3F
+330
+3C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+LDRARROW
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+LDRARROW
+  1
+
+  0
+LWPOLYLINE
+  5
+40
+102
+{ACAD_REACTORS
+330
+41
+102
+}
+330
+3C
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     0
+100
+AcDbPolyline
+ 90
+        4
+ 70
+     0
+ 43
+0.0
+ 10
+0.0
+ 20
+0.0
+ 42
+0.0651920449431346
+ 10
+-1.276130589110834
+ 20
+-0.1180451087890105
+ 42
+0.1562877463157821
+ 10
+-1.254668459358072
+ 20
+0.1244250583589746
+ 42
+0.0650727023370405
+ 10
+0.0
+ 20
+0.0
+ 42
+-0.2805059877597142
+  0
+HATCH
+  5
+41
+330
+3C
+100
+AcDbEntity
+  8
+0
+  6
+ByBlock
+ 62
+     0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+     1
+ 71
+     1
+ 91
+        1
+ 92
+        7
+ 72
+     1
+ 73
+     1
+ 93
+        3
+ 10
+-1.254668459358071
+ 20
+0.1244250583589737
+ 42
+-0.1562877463157813
+ 10
+-1.276130589110834
+ 20
+-0.1180451087890103
+ 42
+-0.0479931503070158
+ 10
+-0.3383808576276057
+ 20
+0.0012428188343909
+ 42
+-0.0476227795114293
+ 97
+        1
+330
+40
+ 75
+     0
+ 76
+     1
+ 47
+0.001928719839742
+ 98
+        1
+ 10
+-1.020384407403796
+ 20
+0.0321895671709363
+450
+        0
+451
+        0
+460
+0.0
+461
+0.0
+452
+        0
+462
+0.0
+453
+        0
+470
+
+  0
+ENDBLK
+  5
+42
+330
+3C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1F
+330
+1E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+ADCADD_ZZ
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+ADCADD_ZZ
+  1
+
+  0
+ENDBLK
+  5
+20
+330
+1E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LINE
+  5
+E
+330
+2
+100
+AcDbEntity
+  8
+BOUNDARY
+100
+AcDbLine
+ 10
+16818.32876186048
+ 20
+10998.6989434538
+ 30
+0.0
+ 11
+16818.5989755522
+ 21
+11093.64855895887
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+10
+330
+2
+100
+AcDbEntity
+  8
+BOUNDARY
+100
+AcDbPolyline
+ 90
+       47
+ 70
+   128
+ 43
+0.0
+ 10
+20754.9056665887
+ 20
+9496.249628236089
+ 10
+20814.44869103152
+ 20
+9469.808169497948
+ 42
+0.3829770765940697
+ 10
+20878.12919867813
+ 20
+9490.458269375116
+ 10
+20886.0382294774
+ 20
+9504.090027582194
+ 10
+20929.37268926005
+ 20
+9478.947740587051
+ 42
+0.4425272236653172
+ 10
+20952.05137150654
+ 20
+9408.371874478026
+ 10
+21701.30738280991
+ 20
+9067.793233888563
+ 10
+21945.35594699229
+ 20
+9000.674157460755
+ 10
+22057.94733770525
+ 20
+8926.043164319024
+ 10
+22901.22688173285
+ 20
+10446.64682702163
+ 10
+24183.14900421965
+ 20
+10434.46519006526
+ 10
+24217.99249734745
+ 20
+13073.67519394647
+ 10
+24220.55502025968
+ 20
+13268.05830400577
+ 10
+24228.38389684421
+ 20
+13861.92670280421
+ 10
+24241.9917635005
+ 20
+14894.16701148483
+ 10
+24246.16719949679
+ 20
+15210.89949061231
+ 10
+24266.60927570744
+ 20
+15242.74265503104
+ 10
+24265.33380038244
+ 20
+15243.0414236628
+ 10
+20826.68227733499
+ 20
+15235.40606882691
+ 10
+20415.24329161304
+ 20
+15234.49248900405
+ 10
+19715.07501766559
+ 20
+15232.93780014402
+ 10
+19215.1962499651
+ 20
+15231.82784417996
+ 10
+18415.44822150134
+ 20
+15230.05204342327
+ 10
+17914.71615373166
+ 20
+15232.87053718768
+ 10
+17711.88936676493
+ 20
+15234.01219771057
+ 10
+16029.18602291767
+ 20
+15243.48370789985
+ 10
+16253.24447667076
+ 20
+14602.53780557908
+ 10
+16331.45396819196
+ 20
+14076.73251506177
+ 10
+16204.64394355589
+ 20
+13270.29185379041
+ 10
+16108.96456617325
+ 20
+12803.55795707444
+ 10
+15520.80395255648
+ 20
+12163.42752607624
+ 10
+15360.27222671698
+ 20
+11670.36232085589
+ 10
+15436.51203046689
+ 20
+11656.22216795094
+ 10
+15923.17631706765
+ 20
+11491.82930147745
+ 10
+16278.75764924442
+ 20
+11278.93864924633
+ 10
+16570.08225750717
+ 20
+11103.05782988117
+ 10
+16818.32876186048
+ 20
+10998.6989434538
+ 10
+16847.19206183932
+ 20
+10986.5652707068
+ 10
+17005.16479113049
+ 20
+10890.63274650203
+ 10
+17251.20316224463
+ 20
+10805.07481268231
+ 10
+17429.26844767658
+ 20
+10720.12719220923
+ 10
+17622.19971829773
+ 20
+10673.35417416986
+ 10
+18218.82292694249
+ 20
+10554.02278472676
+ 42
+-0.0288519917873439
+ 10
+18500.69627094226
+ 20
+10480.51709310481
+ 10
+18753.35597182913
+ 20
+10394.68783732476
+ 10
+18875.31131907499
+ 20
+10329.67912038509
+ 10
+20754.91881229772
+ 20
+9496.337416747897
+  0
+LWPOLYLINE
+  5
+11
+330
+2
+100
+AcDbEntity
+  8
+BOUNDARY
+100
+AcDbPolyline
+ 90
+        5
+ 70
+   128
+ 43
+0.0
+ 10
+20000.01859871411
+ 20
+10000.07310678902
+ 10
+17830.52506666169
+ 20
+10745.94861334674
+ 10
+16818.59409343706
+ 20
+11093.64921074148
+ 10
+16278.75764924442
+ 20
+11278.93864924633
+ 10
+15315.703769639
+ 20
+11609.88156558834
+  0
+LWPOLYLINE
+  5
+12
+330
+2
+100
+AcDbEntity
+  8
+BOUNDARY
+100
+AcDbPolyline
+ 90
+        3
+ 70
+   128
+ 43
+0.0
+ 10
+20000.0
+ 20
+10000.0
+ 10
+20887.91978718172
+ 20
+9407.488984801824
+ 10
+20929.37429911572
+ 20
+9478.946666326477
+  0
+LWPOLYLINE
+  5
+13
+330
+2
+100
+AcDbEntity
+  8
+BOUNDARY
+100
+AcDbPolyline
+ 90
+        4
+ 70
+   128
+ 43
+0.0
+ 10
+15360.27222671698
+ 20
+11670.36232085589
+ 10
+15291.44599170932
+ 20
+11683.12748339582
+ 10
+15291.70651630707
+ 20
+11748.02696048873
+ 10
+15239.22282246048
+ 20
+11939.7946696585
+  0
+LWPOLYLINE
+  5
+14
+330
+2
+100
+AcDbEntity
+  8
+BOUNDARY
+100
+AcDbPolyline
+ 90
+        3
+ 70
+   128
+ 43
+0.0
+ 10
+16116.76691487638
+ 20
+12841.61060318401
+ 10
+15535.71042572956
+ 20
+12209.21201643641
+ 10
+15520.80395255648
+ 20
+12163.42752607624
+  0
+INSERT
+  5
+1D
+330
+19
+100
+AcDbEntity
+ 67
+     1
+  8
+BOUNDARY
+ 60
+     1
+100
+AcDbBlockReference
+  2
+ADCADD_ZZ
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+1001
+ADCADD_ZZ
+1070
+   205
+1070
+     7
+1070
+   209
+1070
+     1
+1070
+   231
+1070
+     0
+1070
+   235
+1070
+     1
+1070
+   236
+1070
+     2
+1070
+   237
+1070
+     4
+1070
+   238
+1070
+     4
+1070
+   239
+1070
+     2
+1070
+   242
+1070
+     2
+1070
+   245
+1070
+     1
+1070
+   303
+1040
+0.0833333333333333
+1070
+   304
+1040
+4.0
+1070
+   305
+1040
+40.0
+1070
+   306
+1040
+0.125
+1070
+   337
+1040
+0.0
+1070
+   338
+1040
+0.3048
+1070
+   339
+1040
+0.0625
+1070
+   340
+1040
+40.0
+1070
+   341
+1040
+4.0
+1070
+   342
+1040
+40.0
+1070
+   530
+1010
+0.0
+1020
+0.0
+1030
+0.0
+1070
+   531
+1010
+0.0
+1020
+0.0
+1030
+0.0
+1070
+   107
+1000
+
+1070
+   108
+1000
+
+1070
+   135
+1000
+STANDARD
+1070
+   136
+1000
+'
+1070
+   137
+1000
+m
+1070
+   206
+1070
+     1
+1070
+   207
+1070
+     1
+1070
+   106
+1000
+_
+1070
+   105
+1000
+{T}{P}{R}{L}{M}
+1070
+   240
+1070
+  4096
+1070
+   241
+1070
+  4993
+1070
+   244
+1070
+     1
+1001
+SDSK_PMN
+1070
+   100
+1000
+PurisimaMission
+1070
+   300
+1040
+2458465.540062523
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+9
+330
+0
+100
+AcDbDictionary
+281
+     1
+  3
+ACAD_COLOR
+350
+4F
+  3
+ACAD_GROUP
+350
+4B
+  3
+ACAD_LAYOUT
+350
+17
+  3
+ACAD_MATERIAL
+350
+4E
+  3
+ACAD_MLINESTYLE
+350
+4C
+  3
+ACAD_PLOTSETTINGS
+350
+4D
+  3
+ACAD_PLOTSTYLENAME
+350
+8
+1001
+ADE_PROJECTION
+1000
+CA83-VF
+1001
+ADE
+1000
+ADE02C004
+1000
+[Query]
+1000
+CaseSensitiveMatch=0
+1000
+SaveCurrQueryInSession=1
+1000
+MkSelSetWithQryObj=0
+1000
+ShowBlockAsInsPt=0
+1000
+CreateAssociativeHatchObjects=0
+1000
+ReferenceBoundaryForAreaLocation=1
+1000
+ShowImageAsBoundary=1
+1000
+DefaultJoinOperator=2
+1000
+ColorForAdd=red
+1000
+ColorForRemove=red
+1000
+BlockLocnForQuery=1
+1000
+TextLocnForQuery=1
+1000
+[Save Back]
+1000
+RedefineBlockDefinitions=1
+1000
+RedefineLayerDefinitions=1
+1000
+RedefineTextStyleDefinitions=1
+1000
+RemoveUnusedGroups=1
+1000
+EraseSavedBackObjects=1
+1000
+RemoveLockAfterSave=1
+1000
+CreateHistoryFileOfChanges=0
+1000
+CreateBackupFileOfSourceDwg=1
+1000
+DontAddObjectsToSaveSet=0
+1000
+MarkObjectsForEditingWithoutPrompting=0
+1000
+[Coordinate Transformation]
+1000
+RestoreLastActiveDwgsOnStartup=1
+1000
+ActivateDwgsOnAttach=1
+1000
+AdjustSizesAndScalesForChangesInUnits=1
+1000
+AdjustRotationsForMapDistortions=1
+1000
+AdjustSizesAndScalesForMapDistortions=1
+1000
+AdjustElevations=1
+1000
+AdjustZeroRotationObjects=1
+1000
+ReconnectDbOnWSOpen=1
+1000
+NoOfSQLConditionsInHistory=10
+  0
+DICTIONARY
+  5
+27
+330
+26
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ACAD_LAYERFILTERS
+360
+28
+  3
+ACAD_LAYERSTATES
+360
+2C
+  0
+DICTIONARY
+  5
+3
+330
+2
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ACAD_SORTENTS
+360
+4
+  0
+DICTIONARY
+  5
+1A
+330
+19
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ACAD_SORTENTS
+360
+1B
+  0
+DICTIONARY
+  5
+44
+330
+43
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ACAD_SORTENTS
+360
+45
+  0
+DICTIONARY
+  5
+3D
+330
+3C
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+ACAD_SORTENTS
+360
+3E
+  0
+DICTIONARY
+  5
+4F
+102
+{ACAD_REACTORS
+330
+9
+102
+}
+330
+9
+100
+AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+4B
+102
+{ACAD_REACTORS
+330
+9
+102
+}
+330
+9
+100
+AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+17
+102
+{ACAD_REACTORS
+330
+9
+102
+}
+330
+9
+100
+AcDbDictionary
+281
+     1
+  3
+Model
+350
+16
+  3
+Work Plot 11x17 (200)
+350
+24
+  0
+DICTIONARY
+  5
+4E
+102
+{ACAD_REACTORS
+330
+9
+102
+}
+330
+9
+100
+AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+4C
+102
+{ACAD_REACTORS
+330
+9
+102
+}
+330
+9
+100
+AcDbDictionary
+281
+     1
+  3
+STANDARD
+350
+51
+  0
+DICTIONARY
+  5
+4D
+102
+{ACAD_REACTORS
+330
+9
+102
+}
+330
+9
+100
+AcDbDictionary
+281
+     1
+  0
+ACDBDICTIONARYWDFLT
+  5
+8
+102
+{ACAD_REACTORS
+330
+9
+102
+}
+330
+9
+100
+AcDbDictionary
+281
+     1
+  3
+Normal
+350
+7
+100
+AcDbDictionaryWithDefault
+340
+7
+  0
+DICTIONARY
+  5
+28
+102
+{ACAD_REACTORS
+330
+27
+102
+}
+330
+27
+100
+AcDbDictionary
+280
+     1
+281
+     1
+  3
+frozen
+360
+29
+  3
+ON
+360
+2A
+  3
+viewport
+360
+2B
+  0
+DICTIONARY
+  5
+2C
+102
+{ACAD_REACTORS
+330
+27
+102
+}
+330
+27
+100
+AcDbDictionary
+281
+     1
+  0
+SORTENTSTABLE
+  5
+4
+102
+{ACAD_REACTORS
+330
+3
+102
+}
+330
+3
+100
+AcDbSortentsTable
+330
+2
+  0
+SORTENTSTABLE
+  5
+1B
+102
+{ACAD_REACTORS
+330
+1A
+102
+}
+330
+1A
+100
+AcDbSortentsTable
+330
+19
+  0
+SORTENTSTABLE
+  5
+45
+102
+{ACAD_REACTORS
+330
+44
+102
+}
+330
+44
+100
+AcDbSortentsTable
+330
+43
+  0
+SORTENTSTABLE
+  5
+3E
+102
+{ACAD_REACTORS
+330
+3D
+102
+}
+330
+3D
+100
+AcDbSortentsTable
+330
+3C
+  0
+LAYOUT
+  5
+16
+102
+{ACAD_REACTORS
+330
+17
+102
+}
+330
+17
+100
+AcDbPlotSettings
+  1
+
+  2
+24by36 b-w.pc3
+  4
+User1285
+  6
+daystamp
+ 40
+1.269999980926513
+ 41
+1.269999980926513
+ 42
+1.185302734375
+ 43
+1.35467529296875
+ 44
+914.3153076171875
+ 45
+618.5747070312499
+ 46
+44.44999999999999
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+0.2269231582153047
+ 70
+ 11956
+ 72
+     0
+ 73
+     0
+ 74
+     0
+  7
+Omsberg-BW.ctb
+ 75
+     0
+147
+4.406778082346272
+ 76
+     0
+ 77
+     2
+ 78
+   300
+148
+-109.2121110927601
+149
+-57.87150750698893
+100
+AcDbLayout
+  1
+Model
+ 70
+     1
+ 71
+     0
+ 10
+0.0
+ 20
+0.0
+ 11
+12.0
+ 21
+9.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+0.0
+ 24
+0.0
+ 34
+0.0
+ 15
+0.0
+ 25
+0.0
+ 35
+0.0
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+     0
+330
+2
+  0
+LAYOUT
+  5
+24
+102
+{ACAD_REACTORS
+330
+17
+102
+}
+330
+17
+100
+AcDbPlotSettings
+  1
+
+  2
+PostScript Level 2.pc3
+  4
+UserDefinedImperial (17.00 x 11.00Inches)
+  6
+PLOT
+ 40
+6.349999904632568
+ 41
+6.349999904632568
+ 42
+6.3499755859375
+ 43
+6.350006103515625
+ 44
+431.7999877929687
+ 45
+279.3999938964844
+ 46
+-6.349999999999999
+ 47
+-6.349999999999999
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+   692
+ 72
+     0
+ 73
+     0
+ 74
+     1
+  7
+_Omsberg-Color.ctb
+ 75
+    16
+147
+1.0
+ 76
+     1
+ 77
+     2
+ 78
+   150
+148
+-330.7467080867168
+149
+-181.2007934851043
+100
+AcDbLayout
+  1
+Work Plot 11x17 (200)
+ 70
+     1
+ 71
+     1
+ 10
+13.02152394417654
+ 20
+7.133889511042196
+ 11
+30.02152346358477
+ 21
+18.1338892707463
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+13.02152394042192
+ 24
+7.133889507287573
+ 34
+-0.0000000000000058
+ 15
+30.02237232908896
+ 25
+18.13452327164404
+ 35
+0.0000000000000104
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+     0
+330
+19
+  0
+MLINESTYLE
+  5
+51
+102
+{ACAD_REACTORS
+330
+4C
+102
+}
+330
+4C
+100
+AcDbMlineStyle
+  2
+STANDARD
+ 70
+     0
+  3
+
+ 62
+     0
+ 51
+90.0
+ 52
+90.0
+ 71
+     2
+ 49
+0.5
+ 62
+   256
+  6
+BYLAYER
+ 49
+-0.5
+ 62
+   256
+  6
+BYLAYER
+  0
+ACDBPLACEHOLDER
+  5
+7
+102
+{ACAD_REACTORS
+330
+8
+102
+}
+330
+8
+  0
+XRECORD
+  5
+29
+102
+{ACAD_REACTORS
+330
+28
+102
+}
+330
+28
+100
+AcDbXrecord
+280
+     1
+  1
+frozen
+  1
+*
+  1
+*
+  1
+*
+ 70
+     4
+  1
+*
+  1
+*
+  0
+XRECORD
+  5
+2A
+102
+{ACAD_REACTORS
+330
+28
+102
+}
+330
+28
+100
+AcDbXrecord
+280
+     1
+  1
+ON
+  1
+*
+  1
+*
+  1
+*
+ 70
+     1
+  1
+*
+  1
+*
+  0
+XRECORD
+  5
+2B
+102
+{ACAD_REACTORS
+330
+28
+102
+}
+330
+28
+100
+AcDbXrecord
+280
+     1
+  1
+viewport
+  1
+*
+  1
+*
+  1
+*
+ 70
+    16
+  1
+*
+  1
+*
+  0
+ENDSEC
+  0
+EOF

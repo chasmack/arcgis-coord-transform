@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<transform>
+    <source>D:\Projects\Python\ArcGIS_Coord_Transform\ArcGIS_Coord_Transform.gdb\Points\Local_181128</source>
+    <target>D:\Projects\Python\ArcGIS_Coord_Transform\ArcGIS_Coord_Transform.gdb\Points\Field_181130</target>
+    <rotation>-1 23 00</rotation>
+    <scale>1.0</scale>
+    <output>D:\Projects\Python\ArcGIS_Coord_Transform\transform\Params_181130.txt</output>
+    <link>
+        <name>07</name>
+        <source>7</source>
+        <target>1007</target>
+        <weight>1.0</weight>
+    </link>
+</transform>

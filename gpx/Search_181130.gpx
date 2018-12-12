@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx creator="ArcGIS Coordinate Transform" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://garmin.cmack.org/xmlschemas/WaypointExtensionv1.xsd">
+  <metadata>
+    <time>2018-12-06T22:36:28Z</time>
+  </metadata>
+  <wpt lat="34.67055681" lon="-120.42430386">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0001</name>
+    <desc>3-1/2&quot;BC-CONC_DOWN_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66892862" lon="-120.42135086">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0002</name>
+    <desc>3&quot;BC-CONC_EVANS_MV2_FLUSH_PVMT</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66917254" lon="-120.42179323">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0003</name>
+    <desc>HW-MON_UP_0.7</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66909988" lon="-120.42159520">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0004</name>
+    <desc>HW-MON_UP_0.2</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66915661" lon="-120.42138341">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0005</name>
+    <desc>2-1/2&quot;BCIP_LS2685_FLUSH</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66919406" lon="-120.42135710">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0006</name>
+    <desc>2-1/2&quot;BCIP_LS2685_FLUSH_PVMT</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66912497" lon="-120.42121299">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0007</name>
+    <desc>HW-MON_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66893104" lon="-120.42113758">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0008</name>
+    <desc>HW-MON_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66799506" lon="-120.41864579">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0009</name>
+    <desc>HW-MON_DOWN_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66781058" lon="-120.41783417">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0010</name>
+    <desc>HW-MON_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66760548" lon="-120.41745974">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0011</name>
+    <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.2</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67178352" lon="-120.41465459">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0012</name>
+    <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67174954" lon="-120.41039103">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0013</name>
+    <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67900149" lon="-120.41027370">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0014</name>
+    <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67953561" lon="-120.41026507">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0015</name>
+    <desc>T-BAR+TAG_LS2333_FLUSH</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68116743" lon="-120.41023870">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0016</name>
+    <desc>T-BAR+TAG_LS2333_UP_0.2</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68400379" lon="-120.41019287">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0017</name>
+    <desc>T-BAR+TAG_LS2333_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68487410" lon="-120.41017881">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0018</name>
+    <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68496159" lon="-120.41011079">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0019</name>
+    <desc>T-BAR+TAG_LS2333_FLUSH</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68496241" lon="-120.41011503">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0020</name>
+    <desc>3/4&quot;IP_DOWN_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68494246" lon="-120.42155351">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0021</name>
+    <desc>3&quot;BCIP_EVANS_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68494000" lon="-120.42292213">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0022</name>
+    <desc>3&quot;BCIP_EVANS_DOWN_1.0</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68493578" lon="-120.42525120">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0023</name>
+    <desc>PIPE-PLUG-6&quot;X6&quot;CONC-POST_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68493275" lon="-120.42691402">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0024</name>
+    <desc>PIPE-PLUG-6&quot;X6&quot;CONC-POST_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68492783" lon="-120.42957433">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0025</name>
+    <desc>2-3/4&quot;BC_PARKS_1.0_BELOW_PVMT</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68493553" lon="-120.43123999">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0026</name>
+    <desc>2&quot;IP_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68496431" lon="-120.43751210">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0027</name>
+    <desc>3&quot;BC_CONC-POST_OBLITERATED</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68320319" lon="-120.43676657">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0028</name>
+    <desc>3&quot;BC_CONC-POST_NO.7_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.68175842" lon="-120.43650625">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0029</name>
+    <desc>3&quot;BC_CONC-POST_NO.6_FLUSH</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67954246" lon="-120.43692779">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0030</name>
+    <desc>3&quot;BC_CONC-POST_NO.5_UP_0.2</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67836452" lon="-120.43721994">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0031</name>
+    <desc>3&quot;BC_CONC-POST_NO.4_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67825996" lon="-120.43724588">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0032</name>
+    <desc>CALC_POS</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67662665" lon="-120.43915238">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0033</name>
+    <desc>CALC_POS</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67650084" lon="-120.43920194">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0034</name>
+    <desc>CALC_POS</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67588624" lon="-120.44013841">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0035</name>
+    <desc>1-1/2&quot;IP+TAG_SBC_ROADS_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67535933" lon="-120.43996376">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0036</name>
+    <desc>CALC_POS</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67518100" lon="-120.43996460">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0037</name>
+    <desc>CALC_POS</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67497974" lon="-120.43988389">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0038</name>
+    <desc>3&quot;BC_CONC-POST_NO.1_FLUSH_PVT</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67514595" lon="-120.43973568">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0039</name>
+    <desc>3&quot;BC_CONC-POST_NO.2_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67510712" lon="-120.43948209">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0040</name>
+    <desc>HW-MON_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67465556" lon="-120.43786337">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0041</name>
+    <desc>HW_MON_UP_0.7</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67407068" lon="-120.43668062">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0042</name>
+    <desc>2-3/4&quot;BCIP_LS1744_NO.66_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67358748" lon="-120.43571162">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0043</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67356168" lon="-120.43488508">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0044</name>
+    <desc>2-3/4&quot;BCIP_LS1744_NO.59_FLUSH</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67330078" lon="-120.43488593">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0045</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.7</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67326745" lon="-120.43478993">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0046</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.7</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67300388" lon="-120.43426449">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0047</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.8</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67276883" lon="-120.43344616">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0048</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.8</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67253544" lon="-120.43285391">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0049</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.8</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67242041" lon="-120.43220890">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0050</name>
+    <desc>HW-MON_UP_0.3</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67240695" lon="-120.43221222">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0051</name>
+    <desc>4&quot;BCIP</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67260645" lon="-120.43151935">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0052</name>
+    <desc>3-1/2&quot;BC-CONC_P49_DOWN_0.2</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67214621" lon="-120.43021158">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0053</name>
+    <desc>HW-MON_UP_0.2</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67207913" lon="-120.43022787">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0054</name>
+    <desc>4&quot;BCIP_UP_0.5</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67187717" lon="-120.42929038">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0055</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.8</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67164134" lon="-120.42845005">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0056</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.8</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.67146272" lon="-120.42804443">
+    <ele>0.0000</ele>
+    <time>2018-12-06T22:07:14Z</time>
+    <name>0057</name>
+    <desc>2-1/2&quot;BCIP_LS2685_UP_0.7</desc>
+    <sym>Flag, Red</sym>
+    <type>CAD</type>
+  </wpt>
+  <wpt lat="34.66912497" lon="-120.42121299">
+    <ele>42.7449</ele>
+    <time>2018-12-01T00:07:22Z</time>
+    <name>1007</name>
+    <desc>FD_HWY-MON_IN_FNC-LINE</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <wptx1:WaypointExtension>
+        <wptx1:Samples>1</wptx1:Samples>
+      </wptx1:WaypointExtension>
+    </extensions>
+  </wpt>
+  <rte>
+    <name>R01-EAST-LINE</name>
+    <rtept lat="34.66893104" lon="-120.42113758">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0008</name>
+      <desc>HW-MON_UP_0.3</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.66799506" lon="-120.41864579">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0009</name>
+      <desc>HW-MON_DOWN_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.66781058" lon="-120.41783417">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0010</name>
+      <desc>HW-MON_UP_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.66760548" lon="-120.41745974">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0011</name>
+      <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.2</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.67178352" lon="-120.41465459">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0012</name>
+      <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.67174954" lon="-120.41039103">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0013</name>
+      <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.67900149" lon="-120.41027370">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0014</name>
+      <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.67953561" lon="-120.41026507">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0015</name>
+      <desc>T-BAR+TAG_LS2333_FLUSH</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68116743" lon="-120.41023870">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0016</name>
+      <desc>T-BAR+TAG_LS2333_UP_0.2</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68400379" lon="-120.41019287">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0017</name>
+      <desc>T-BAR+TAG_LS2333_UP_0.3</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68487410" lon="-120.41017881">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0018</name>
+      <desc>2&quot;IP_SB_CO_SURV_MON_UP_0.3</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68496159" lon="-120.41011079">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R01-0019</name>
+      <desc>T-BAR+TAG_LS2333_FLUSH</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+  </rte>
+  <rte>
+    <name>R02-NORTH-LINE</name>
+    <rtept lat="34.68496159" lon="-120.41011079">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0019</name>
+      <desc>T-BAR+TAG_LS2333_FLUSH</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68496241" lon="-120.41011503">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0020</name>
+      <desc>3/4&quot;IP_DOWN_0.3</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68494246" lon="-120.42155351">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0021</name>
+      <desc>3&quot;BCIP_EVANS_UP_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68494000" lon="-120.42292213">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0022</name>
+      <desc>3&quot;BCIP_EVANS_DOWN_1.0</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68493578" lon="-120.42525120">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0023</name>
+      <desc>PIPE-PLUG-6&quot;X6&quot;CONC-POST_UP_0.3</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68493275" lon="-120.42691402">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0024</name>
+      <desc>PIPE-PLUG-6&quot;X6&quot;CONC-POST_UP_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68492783" lon="-120.42957433">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0025</name>
+      <desc>2-3/4&quot;BC_PARKS_1.0_BELOW_PVMT</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68493553" lon="-120.43123999">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0026</name>
+      <desc>2&quot;IP_UP_0.5</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+    <rtept lat="34.68496431" lon="-120.43751210">
+      <ele>0.0000</ele>
+      <time>2018-12-06T22:07:14Z</time>
+      <name>R02-0027</name>
+      <desc>3&quot;BC_CONC-POST_OBLITERATED</desc>
+      <sym>Flag, Red</sym>
+      <type>CAD</type>
+    </rtept>
+  </rte>
+</gpx>
