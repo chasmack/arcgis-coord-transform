@@ -31,6 +31,6 @@ Select a waypoint and press -
  
     Menu - Average Location.
     
-You should always start a new averaged waypoint from *Create Waypoint* on the 
+You should always start a new averaged waypoint with *Create Waypoint* on the 
 `Waypoint Averaging` page. Collecting the initial sample by pressing *Mark* causes 
 the first sample to be unaveraged.
