@@ -4,6 +4,8 @@ import os.path
 from dateutil import parser, tz, utils
 import xml.etree.ElementTree as etree
 
+from tools.utils import create_points_feature_class
+
 
 #
 # ImportGPX - Create waypoint, route point and track features from a GPX file
@@ -11,10 +13,12 @@ import xml.etree.ElementTree as etree
 
 def import_gpx(gpx_file, wpt_fc, trk_fc):
 
-    POINTS_TEMPLATE = r'Points\PointsTemplate'
     GCS_WGS_84 = arcpy.SpatialReference(4326)
+    GCS_TRANSFORMS = 'WGS_1984_(ITRF08)_To_NAD_1983_2011; NAD_1927_To_NAD_1983_NADCON'
 
-    workspace = arcpy.env.workspace
+    arcpy.env.geographicTransformations = arcpy.env.geographicTransformations or GCS_TRANSFORMS
+    arcpy.AddMessage('Geographic Transformations: %s' % arcpy.env.geographicTransformations)
+
     scratch = arcpy.env.scratchWorkspace
     arcpy.env.addOutputsToMap = False
 
@@ -42,10 +46,10 @@ def import_gpx(gpx_file, wpt_fc, trk_fc):
 
     gpx = etree.parse(gpx_file).getroot()
 
-    if wpt_fc:
+    sr = arcpy.env.outputCoordinateSystem
 
-        template_fc = os.path.join(workspace, POINTS_TEMPLATE)
-        sr = arcpy.Describe(template_fc).spatialReference
+    if wpt_fc:
+        create_points_feature_class(wpt_fc, sr)
 
         waypoints = []
         for wpt in gpx.findall('gpx:wpt', ns):
@@ -53,24 +57,23 @@ def import_gpx(gpx_file, wpt_fc, trk_fc):
             row = [arcpy.PointGeometry(arcpy.Point(x, y), GCS_WGS_84).projectAs(sr)]
             for field, tag in WPT_FIELDS:
                 elem = wpt.find(tag, ns)
+
                 if elem is None:
                     row.append(None)
+                elif field == 'ELEVATION':
+                    row.append('%0.4f' % (float(elem.text) / sr.metersPerUnit))
+                elif field == 'NAME' and elem.text.isdigit():
+                    row.append('%d' % int(elem.text))
                 else:
                     row.append(elem.text)
             waypoints.append(row)
 
         if waypoints:
-            temp_fc = os.path.join(scratch, os.path.basename(wpt_fc) + '_Temp')
-
-            fc = mgmt.CreateFeatureclass(*os.path.split(temp_fc), template=template_fc, spatial_reference=sr)
-
             fields = ['SHAPE@'] + [f[0] for f in WPT_FIELDS]
-            cur = arcpy.da.InsertCursor(fc, fields)
+            cur = arcpy.da.InsertCursor(wpt_fc, fields)
             for row in waypoints:
                 cur.insertRow(row)
             del cur
-
-            mgmt.CopyFeatures(temp_fc, wpt_fc)
 
     if trk_fc:
 
@@ -130,10 +133,9 @@ def import_gpx(gpx_file, wpt_fc, trk_fc):
 
         if tracks:
             temp_fc = os.path.join(scratch, os.path.basename(trk_fc) + '_Temp')
-            sr = arcpy.env.outputCoordinateSystem
             if sr is None:
                 arcpy.AddError('Geoprocessing environment not set: outputCoordinateSystem')
-                exit(-1)
+                return None
 
             fc = mgmt.CreateFeatureclass(*os.path.split(temp_fc), geometry_type='POLYLINE', spatial_reference=sr)
             mgmt.AddField(fc, 'NAME', 'TEXT', field_length=64)

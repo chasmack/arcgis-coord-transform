@@ -5,6 +5,7 @@ from dateutil import tz
 import os.path
 
 from tools.transform import Transform
+from tools.utils import create_points_feature_class
 
 
 #
@@ -13,12 +14,9 @@ from tools.transform import Transform
 
 def import_pnezd(pnezd_file, param_file, output_fc):
 
-    POINTS_TEMPLATE = r'Points\PointsTemplate'
     POINTS_SYMBOL = 'Flag, Red'
     POINTS_TYPE = 'CAD'
 
-    workspace = arcpy.env.workspace
-    scratch = arcpy.env.scratchWorkspace
     arcpy.env.addOutputsToMap = False
 
     pts = []
@@ -28,18 +26,16 @@ def import_pnezd(pnezd_file, param_file, output_fc):
             if line == '' or line.startswith('#'):
                 continue
 
-            fields = line.split(',')
+            fields = line.split(',', 4)
             if len(fields) == 5:
                 pts.append(fields)
             else:
                 raise ValueError('Bad source point data: %s' % line)
 
     if pts:
-        temp_fc = os.path.join(scratch, os.path.basename(output_fc) + '_Temp')
-        template_fc = os.path.join(workspace, POINTS_TEMPLATE)
-        sr = arcpy.Describe(template_fc).spatialReference
-
-        fc = mgmt.CreateFeatureclass(*os.path.split(temp_fc), template=template_fc, spatial_reference=sr)
+        if not arcpy.Exists(output_fc):
+            create_points_feature_class(output_fc)
+        sr = arcpy.Describe(output_fc).spatialReference
 
         if param_file:
             xfm = Transform()
@@ -51,7 +47,7 @@ def import_pnezd(pnezd_file, param_file, output_fc):
         pt_samples = None
 
         fields = ('SHAPE@XY', 'ELEVATION', 'TIME', 'NAME', 'DESCRIPTION', 'SYMBOL', 'TYPE', 'SAMPLES')
-        cur = arcpy.da.InsertCursor(fc, fields)
+        cur = arcpy.da.InsertCursor(output_fc, fields)
         for name, n, e, z, desc in pts:
             n, e, z = (float(n) for n in (n, e, z))
             coords = (e, n)
@@ -60,8 +56,6 @@ def import_pnezd(pnezd_file, param_file, output_fc):
                 z *= xfm.scale()
             cur.insertRow((coords, z, pt_time, name, desc, pt_symbol, pt_type, pt_samples))
         del cur
-
-        mgmt.CopyFeatures(temp_fc, output_fc)
 
 
 class ImportPNEZD(object):

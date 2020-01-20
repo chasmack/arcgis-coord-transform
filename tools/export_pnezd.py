@@ -23,7 +23,7 @@ def export_pnezd(input_fc, param_file, pnezd_file):
             if param_file:
                 coords = xfm.inverse(coords)
                 z /= xfm.scale()
-            pts.append('%d,%.4f,%.4f,%.4f,%s' % (int(name), *coords[::-1], z, desc))
+            pts.append('%d,%.4f,%.4f,%.4f,%s' % (int(name), *coords[::-1], z, desc if desc else ''))
 
     with open(pnezd_file, 'w') as f:
         f.write('\n'.join(pts) + '\n')

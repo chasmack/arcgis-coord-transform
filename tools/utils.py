@@ -5,32 +5,74 @@ import os.path
 import math
 
 
-def create_points_template():
+def create_points_feature_class(fc, sr=None):
 
-    POINTS_FEATURE_DATASET = r'Points'
-    POINTS_TEMPLATE = r'Points\PointsTemplate'
-
-    workspace = arcpy.env.workspace
-    scratch = arcpy.env.scratchWorkspace
     arcpy.env.addOutputsToMap = False
 
-    sr = arcpy.env.outputCoordinateSystem
+    sr = sr or arcpy.env.outputCoordinateSystem
     if sr is None:
-        arcpy.AddError('Geoprocessing environment not set: outputCoordinateSystem')
-        exit(-1)
+        arcpy.AddError('No spatial reference system.')
+        return None
 
-    temp_fc = os.path.join(scratch, os.path.basename(POINTS_TEMPLATE) + '_Temp')
-    mgmt.CreateFeatureclass(*os.path.split(temp_fc), 'POINT', spatial_reference=sr)
-    mgmt.AddField(temp_fc, 'ELEVATION', 'DOUBLE')
-    mgmt.AddField(temp_fc, 'TIME', 'TEXT', field_length=64)
-    mgmt.AddField(temp_fc, 'NAME', 'TEXT', field_length=64)
-    mgmt.AddField(temp_fc, 'DESCRIPTION', 'TEXT', field_length=64)
-    mgmt.AddField(temp_fc, 'SYMBOL', 'TEXT', field_length=64)
-    mgmt.AddField(temp_fc, 'TYPE', 'TEXT', field_length=64)
-    mgmt.AddField(temp_fc, 'SAMPLES', 'LONG')
+    scratch_fc = os.path.join(arcpy.env.scratchWorkspace, os.path.basename(fc))
 
-    mgmt.CreateFeatureDataset(workspace, POINTS_FEATURE_DATASET, spatial_reference=sr)
-    mgmt.CopyFeatures(temp_fc, os.path.join(workspace, POINTS_TEMPLATE))
+    mgmt.CreateFeatureclass(*os.path.split(scratch_fc), 'POINT', spatial_reference=sr)
+    mgmt.AddField(scratch_fc, 'ELEVATION', 'DOUBLE')
+    mgmt.AddField(scratch_fc, 'TIME', 'TEXT', field_length=64)
+    mgmt.AddField(scratch_fc, 'NAME', 'TEXT', field_length=64)
+    mgmt.AddField(scratch_fc, 'DESCRIPTION', 'TEXT', field_length=64)
+    mgmt.AddField(scratch_fc, 'SYMBOL', 'TEXT', field_length=64)
+    mgmt.AddField(scratch_fc, 'TYPE', 'TEXT', field_length=64)
+    mgmt.AddField(scratch_fc, 'SAMPLES', 'LONG')
+
+    if fc != scratch_fc:
+        mgmt.Copy(scratch_fc, fc)
+        mgmt.Delete(scratch_fc)
+
+    return fc
+
+
+class CreatePointsFC(object):
+    def __init__(self):
+        self.label = "Create Points Feature Class"
+        self.description = "Create an empty points feature class.."
+        self.category = None
+        self.canRunInBackground = False
+
+    def getParameterInfo(self):
+        params = []
+
+        # Output points feature class
+        param = arcpy.Parameter(
+            displayName='Points Feature Class',
+            name='fc',
+            datatype='DEFeatureClass',
+            parameterType='Required',
+            direction='Output'
+        )
+        params.append(param)
+
+        # Output coordinate system
+        param = arcpy.Parameter(
+            displayName='Spatial Reference System (optional)',
+            name='trk_fc',
+            datatype='GPSpatialReference',
+            parameterType='Optional',
+            direction='Input'
+        )
+        params.append(param)
+
+        return params
+
+    def execute(self, params, messages):
+        fc = params[0].valueAsText
+        sr = params[1].valueAsText
+
+        fc = create_points_feature_class(fc, sr)
+
+        arcpy.SetParameterAsText(0, fc)
+
+        return
 
 
 def dms_degrees(dms):

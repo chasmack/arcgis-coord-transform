@@ -2,7 +2,7 @@ import arcpy
 import arcpy.management as mgmt
 import arcpy.analysis as anlys
 
-import os.path
+import copy
 from datetime import datetime
 import xml.etree.ElementTree as etree
 import xml.dom.minidom as minidom
@@ -12,7 +12,7 @@ import xml.dom.minidom as minidom
 # ExportGPX - Create a GPX file from point features
 #
 
-def export_gpx(wpt_fc, rte_fc, rtept_fc, gpx_file):
+def export_gpx(wpt_fc, gpx_file, create_rte, close_rte):
 
     scratch = arcpy.env.scratchWorkspace
     arcpy.env.addOutputsToMap = False
@@ -51,125 +51,86 @@ def export_gpx(wpt_fc, rte_fc, rtept_fc, gpx_file):
     time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
     etree.SubElement(meta, 'time').text = time
 
-    if wpt_fc:
-        for fc in wpt_fc.split(';'):
+    sr = arcpy.Describe(wpt_fc).spatialReference
 
-            fields = ['SHAPE@XY'] + [f[0] for f in WPT_FIELDS]
-            with arcpy.da.SearchCursor(fc, fields, spatial_reference=GCS_WGS_84) as cur:
-                for row in cur:
-                    coords = row[0]
-                    lon, lat = ('%.8f' % c for c in coords)
-                    wpt = etree.SubElement(gpx, 'wpt', attrib={'lat': lat, 'lon': lon})
+    # A list of rte elements to append after the waypoints
+    routes = []
 
-                    for (field, tag), value in zip(WPT_FIELDS, row[1:]):
-                        tag = tag.rsplit(':')[-1]
-                        if value is None or value == '':
-                            continue
-                        elif field == 'ELEVATION':
-                            etree.SubElement(wpt, tag).text = '%.4f' % value
-                        elif field == 'NAME':
-                            etree.SubElement(wpt, tag).text = '%04d' % int(value)
-                        elif field == 'SAMPLES':
-                            # gpx:extensions/wptx1:WaypointExtension/wptx1:Samples
-                            ext = etree.SubElement(wpt, 'extensions')
-                            wptx1 = etree.SubElement(ext, 'wptx1:WaypointExtension')
-                            etree.SubElement(wptx1, 'wptx1:Samples').text = str(value)
-                        else:
-                            etree.SubElement(wpt, tag).text = value
+    for fc in wpt_fc.split(';'):
 
-    if rte_fc:
+        desc = arcpy.Describe(fc)
+        hasZ = desc.hasZ
 
-        # Explode the route polylines into points
-        temp_fc = os.path.join(scratch, os.path.basename(rte_fc) + '_Temp')
-        mgmt.FeatureVerticesToPoints(rte_fc, temp_fc)
+        fc_fields = list(f.name.upper() for f in arcpy.ListFields(fc))
+        sql_clause = (None, 'ORDER BY NAME' if 'NAME' in fc_fields else None)
 
-        # Ensure we have a ROUTE_NAME field
-        rte_fields = [f.name for f in arcpy.ListFields(temp_fc, '*NAME')]
-        if 'ROUTE_NAME' in rte_fields:
-            pass
-        elif 'NAME' in rte_fields:
-            mgmt.AlterField(temp_fc, 'NAME', 'ROUTE_NAME', 'ROUTE_NAME')
-        else:
-            mgmt.AddField(temp_fc, 'ROUTE_NAME', 'TEXT', field_length=32)
+        if create_rte:
+            # Add a new rte element to the end of the routes list
+            routes.append(etree.Element('rte'))
+            etree.SubElement(routes[-1], 'name').text = fc
 
-        # Create unique, non-NULL route names
-        with arcpy.da.UpdateCursor(temp_fc, ['ROUTE_NAME', 'ORIG_FID']) as cur:
+        closing_rtept = None
+
+        arcpy.AddMessage('Feature Class: ' + fc)
+        arcpy.AddMessage('Fields: ' + ', '.join(fc_fields))
+        arcpy.AddMessage('Has Z: ' + str(hasZ))
+
+        with arcpy.da.SearchCursor(fc, '*', spatial_reference=GCS_WGS_84, sql_clause=sql_clause) as cur:
+
             for row in cur:
-                name, fid = row
-                if name is None or name == '':
-                    row[0] = 'R%02d' % fid
-                else:
-                    row[0] = 'R%02d-%s' % (fid, name)
-                cur.updateRow(row)
 
-        # Route name and polyline vertex coords
-        fields = ['ROUTE_NAME', 'SHAPE@']
+                row = dict(zip(fc_fields, row))
 
-        if rtept_fc:
-            # Get coordinates for nearest route point
-            search_radius = '0.1 foot'
-            anlys.Near(temp_fc, rtept_fc, search_radius, location=True)
+                coords = row['SHAPE']
+                lon, lat = ('%.8f' % c for c in coords[0:2])
+                wpt = etree.SubElement(gpx, 'wpt', attrib={'lat': lat, 'lon': lon})
 
-            # Join fields from the route points
-            mgmt.JoinField(temp_fc, 'NEAR_FID', rtept_fc, 'OBJECTID')
+                # Match waypoint elements to feature class fields
+                for wpt_field, tag in WPT_FIELDS:
+                    tag = tag.rsplit(':')[-1]
 
-            # Add additional fields to the query
-            fields += ['NEAR_FID', 'NEAR_X', 'NEAR_Y'] + [f[0] for f in WPT_FIELDS]
-
-        with arcpy.da.SearchCursor(temp_fc, fields, sql_clause=('', 'ORDER BY OBJECTID')) as cur:
-
-            # Near coords are in the temp_fc coordinate system.
-            sr = arcpy.Describe(temp_fc).spatialReference
-
-            rtept_number = 0
-            last_route = None
-            for row in cur:
-                route_name = row[0]
-                if route_name != last_route:
-                    # Start a new route
-                    rte = etree.SubElement(gpx, 'rte')
-                    etree.SubElement(rte, 'name').text = route_name
-                    last_route = route_name
-                    rtept_prefix = route_name.partition('-')[0]
-                    rtept_number = 0
-
-                rtept_number += 1
-
-                if rtept_fc and row[2] > 0:
-
-                    # Use the near coordinates
-                    coords = row[3:5]
-                    geom = arcpy.PointGeometry(arcpy.Point(*coords), sr)
-                    pt = geom.projectAs(GCS_WGS_84).firstPoint
-                    lon, lat = ['%.8f' % c for c in (pt.X, pt.Y)]
-                    rtept = etree.SubElement(rte, 'rtept', attrib={'lat': lat, 'lon': lon})
-
-                    # Add remaining route point info
-                    for (field, tag), value in zip(WPT_FIELDS, row[5:]):
-                        tag = tag.rsplit(':')[-1]
-                        if value is None or value == '':
-                            continue
-                        elif field == 'ELEVATION':
-                            etree.SubElement(rtept, tag).text = '%.4f' % value
-                        elif field == 'NAME':
-                            etree.SubElement(rtept, tag).text = '%s-%04d' % (rtept_prefix, int(value))
-                        elif field == 'SAMPLES':
-                            # gpx:extensions/wptx1:WaypointExtension/wptx1:Samples
-                            ext = etree.SubElement(rtept, 'extensions')
-                            wptx1 = etree.SubElement(ext, 'wptx1:WaypointExtension')
-                            etree.SubElement(wptx1, 'wptx1:Samples').text = str(value)
+                    if wpt_field == 'ELEVATION':
+                        if hasZ:
+                            etree.SubElement(wpt, tag).text = '%.4f' % (coords[2] * sr.metersPerUnit)
                         else:
-                            etree.SubElement(rtept, tag).text = value
-                else:
+                            # Search for elevation field in fc
+                            for f in fc_fields:
+                                if f.startswith('ELE'):
+                                    etree.SubElement(wpt, tag).text = '%.4f' % (row[f] * sr.metersPerUnit)
+                                    break
 
-                    # Use the polyline vertex coordinates
-                    geom = row[1]
-                    pt = geom.projectAs(GCS_WGS_84).firstPoint
-                    lon, lat = ['%.8f' % c for c in (pt.X, pt.Y)]
-                    rtept = etree.SubElement(rte, 'rtept', attrib={'lat': lat, 'lon': lon})
+                    elif wpt_field == 'NAME' and 'NAME' in fc_fields:
+                        if row['NAME'].isdigit():
+                            row['NAME'] = '%04d' % int(row['NAME'])
+                        etree.SubElement(wpt, tag).text = row['NAME']
 
-                    # No route point info available
-                    etree.SubElement(rtept, 'name').text = '%s-%04d' % (rtept_prefix, rtept_number)
+                    elif wpt_field == 'SAMPLES' and 'SAMPLES' in fc_fields:
+                        # gpx:extensions/wptx1:WaypointExtension/wptx1:Samples
+                        ext = etree.SubElement(wpt, 'extensions')
+                        wptx1 = etree.SubElement(ext, 'wptx1:WaypointExtension')
+                        etree.SubElement(wptx1, 'wptx1:Samples').text = row['SAMPLES']
+
+                    elif wpt_field in fc_fields:
+                        etree.SubElement(wpt, tag).text = row[wpt_field]
+
+                if create_rte:
+                    # Create a copy of the waypoint and append it to the route
+                    rtept = copy.deepcopy(wpt)
+                    rtept.tag = 'rtept'
+                    routes[-1].append(rtept)
+
+                    if close_rte and closing_rtept is None:
+                        # Keep a copy of the first route point for the closing segment
+                        closing_rtept = copy.deepcopy(wpt)
+                        closing_rtept.tag = 'rtept'
+
+        if closing_rtept:
+            # Append the closing route point
+            routes[-1].append(closing_rtept)
+
+    for rte in routes:
+        # Append the routes
+        gpx.append(rte)
 
     # with open(gpx_file, 'wb') as f:
     #     etree.ElementTree(gpx).write(f)
@@ -195,36 +156,12 @@ class ExportGPX(object):
 
         # Input waypoint feature class
         param = arcpy.Parameter(
-            displayName='Input Waypoint Features (Optional)',
+            displayName='Input Waypoint Features',
             name='wpt_fc',
             datatype='GPFeatureLayer',
-            parameterType='Optional',
+            parameterType='Required',
             direction='Input',
             multiValue=True
-        )
-        param.filter.list = ['Point']
-        params.append(param)
-
-        # Input route line feature class
-        param = arcpy.Parameter(
-            displayName='Input Route Lines (Optional)',
-            name='rte_fc',
-            datatype='GPFeatureLayer',
-            parameterType='Optional',
-            direction='Input',
-            multiValue=False
-        )
-        param.filter.list = ['Polyline']
-        params.append(param)
-
-        # Input route point feature class
-        param = arcpy.Parameter(
-            displayName='Input Route Points (Optional)',
-            name='rtept_fc',
-            datatype='GPFeatureLayer',
-            parameterType='Optional',
-            direction='Input',
-            multiValue=False
         )
         param.filter.list = ['Point']
         params.append(param)
@@ -240,15 +177,39 @@ class ExportGPX(object):
         param.filter.list = ['gpx']
         params.append(param)
 
+        # Input enable routes switch
+        param = arcpy.Parameter(
+            displayName='Create Routes',
+            name='create_rte',
+            datatype='GPBoolean',
+            parameterType='Required',
+            direction='Input',
+            multiValue=False
+        )
+        param.value = False
+        params.append(param)
+
+        # Input add closing segment switch
+        param = arcpy.Parameter(
+            displayName='Add Closing Segmant',
+            name='close_rte',
+            datatype='GPBoolean',
+            parameterType='Required',
+            direction='Input',
+            multiValue=False
+        )
+        param.value = False
+        params.append(param)
+
         return params
 
     def execute(self, params, messages):
         wpt_fc = params[0].valueAsText
-        rte_fc = params[1].valueAsText
-        rtept_fc = params[2].valueAsText
-        gpx_file = params[3].valueAsText
+        gpx_file = params[1].valueAsText
+        create_rte = params[2].value
+        close_rte = params[3].value
 
-        export_gpx(wpt_fc, rte_fc, rtept_fc, gpx_file)
+        export_gpx(wpt_fc, gpx_file, create_rte, close_rte)
 
         return
 
@@ -256,8 +217,8 @@ class ExportGPX(object):
 if __name__ == '__main__':
 
     wpt_fc = arcpy.GetParameterAsText(0)
-    rte_fc = arcpy.GetParameterAsText(1)
-    rtept_fc = arcpy.GetParameterAsText(2)
-    gpx_file = arcpy.GetParameterAsText(3)
+    gpx_file = arcpy.GetParameterAsText(1)
+    create_rte = arcpy.GetParameter(2)
+    close_rte = arcpy.GetParameter(3)
 
-    export_gpx(wpt_fc, rte_fc, rtept_fc, gpx_file)
+    export_gpx(wpt_fc, gpx_file, create_rte, close_rte)

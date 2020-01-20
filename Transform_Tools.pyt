@@ -7,6 +7,7 @@ import tools.export_pnezd
 import tools.import_cad
 import tools.import_gpx
 import tools.export_gpx
+import tools.utils
 
 RELOAD = True
 
@@ -18,6 +19,7 @@ if RELOAD:
     reload(tools.import_cad)
     reload(tools.import_gpx)
     reload(tools.export_gpx)
+    reload(tools.utils)
 
 from tools.calculate_transform import CalculateTransform
 from tools.transform_features import TransformFeatures
@@ -26,6 +28,7 @@ from tools.export_pnezd import ExportPNEZD
 from tools.import_cad import ImportCAD
 from tools.import_gpx import ImportGPX
 from tools.export_gpx import ExportGPX
+from tools.utils import CreatePointsFC
 
 
 class Toolbox(object):
@@ -36,4 +39,4 @@ class Toolbox(object):
         self.tools += [CalculateTransform, TransformFeatures]
         self.tools += [ImportPNEZD, ExportPNEZD]
         self.tools += [ImportCAD]
-        self.tools += [ImportGPX, ExportGPX]
+        self.tools += [ImportGPX, ExportGPX, CreatePointsFC]
